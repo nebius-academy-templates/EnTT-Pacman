@@ -92,7 +92,7 @@ get Clang. On Linux you need a C++17 compiler, CMake and Make. On Ubuntu use
 `sudo dnf install gcc-c++ cmake make`.
 
 ```
-git clone https://github.com/indianakernick/EnTT-Pacman.git
+git clone https://github.com/nebius-academy-templates/EnTT-Pacman.git
 cd EnTT-Pacman/build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 cmake --build .
@@ -106,7 +106,7 @@ SDL2_mixer* above), then point CMake at the vcpkg toolchain file so it can find
 the libraries. Replace `C:/vcpkg` with wherever you cloned vcpkg.
 
 ```
-git clone https://github.com/indianakernick/EnTT-Pacman.git
+git clone https://github.com/nebius-academy-templates/EnTT-Pacman.git
 cd EnTT-Pacman\build
 cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake
 cmake --build . --config Release
